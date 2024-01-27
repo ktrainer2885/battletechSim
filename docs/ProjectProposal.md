@@ -51,9 +51,10 @@ The following features will be implemented:
 Due to the ambitious nature fo this project, a conservative timeline will be used. It is anticipated that the primary developers job will slow down development dramatically.
 
 - June 18-July 3 2023- Requirements gathering and analysis
-- July 4- 17 2023- Design documents and architecture
-- July 17 - Dec 20- Creation of the simulator. Using Agile like methodology (2-week sprints)
-- Jan 8 - 17 2024- Deployment and Release.
+- ~~July 4- 17 2023- Design documents and architecture~~
+- ~~July 17 - Dec 20- Creation of the simulator. Using Agile like methodology (2-week sprints)~~
+- ~~Jan 8 - 17 2024- Deployment and Release.~~
+- TBD (27 JAN 2024)
 
 ## Stakeholders
 - The primary devleoper

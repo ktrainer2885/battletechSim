@@ -1,12 +1,15 @@
 import tkinter as tk
 from src.gui.main_menu_bar import create_main_menu_bar
+from src.gui.new_simulation_menu import create_new_simulation_menu
 
 def on_new_simulation():
-    pass
+    new_simulation = create_new_simulation_menu()
+
+
 
 def main():
     root = tk.Tk()
-    root.geometry("800x600")
+    root.geometry("400x300")
     root.title("BattleTech Simulator")
 
     main_menu_bar = create_main_menu_bar(root)
@@ -17,7 +20,7 @@ def main():
     label = tk.Label(root, text="BattleTech Simulator", font=("Helvetica","16"))
     label.grid(row=0, column=0, sticky=(tk.W + tk.E), padx=5, pady=5)
 
-    btn1 = tk.Button(root, text="New Simulation")
+    btn1 = tk.Button(root, text="New Simulation", command=on_new_simulation)
     btn1.grid(row=1, column=0, sticky=(tk.W + tk.E), padx=5, pady=5)
 
     btn2 = tk.Button(root, text="Load Simulation")

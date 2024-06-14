@@ -1,5 +1,3 @@
-from model.battleMech import BattleMech
-
 def main():
     pass
 

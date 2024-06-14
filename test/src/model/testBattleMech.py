@@ -1,5 +1,5 @@
 import unittest
-import src.model.battleMech as battleMech
+import src.model.mech.battleMech as battleMech
 
 
 class MyTestCase(unittest.TestCase):
